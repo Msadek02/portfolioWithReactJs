@@ -1,4 +1,5 @@
 import React from 'react'; 
+import ColorText from '../hoc/colorText';
 
 const Home = () => {
     return (
@@ -9,4 +10,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default ColorText(Home);
